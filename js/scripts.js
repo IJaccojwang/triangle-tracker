@@ -15,10 +15,18 @@
 // }
 // else{
 
-var sideA = parseInt(prompt("Please enter length of side A"));
-var sideB = parseInt(prompt("Please enter length of side B"));
-var sideC = parseInt(prompt("Please enter length of side C"));
+//Business logic
 function triangleCheck(){
+//Initialize 3 sides
+  var side1 = document.getElementById("sideA").value;
+  var side2 = document.getElementById("sideB").value;
+  var side3 = document.getElementById("sideC").value;
+
+  var sideA = parseInt(side1);
+  var sideB = parseInt(side2);
+  var sideC = parseInt(side3);
+
+//Test triangles for type
   if((sideA + sideB) <= sideC || (sideB + sideC) <= sideA || (sideA + sideC) <= sideB){
     alert("This is not a triangle");
   }
@@ -29,7 +37,6 @@ function triangleCheck(){
     alert("This is an isosceles triangle");
   }
   else{
-    alert("This is s scalene triangle");
+    alert("This is a scalene triangle");
   }
 }
-triangleCheck();
