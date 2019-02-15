@@ -6,21 +6,46 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
-    <h1>Welcome to triangle tracker.</h1>
-    <!-- <form  id=""> -->
-      <label for="sideA">Side A</label>
-      <input type="number" name="sideA" id="sideA">
-      <br>
-      <label for="sideB">Side B</label>
-      <input type="number" name="" id="sideB">
-      <br>
-      <label for="sideC">Side C</label>
-      <input type="number" name="" id="sideC">
-      <br>
-      <!-- <input type="submit" value="Submit" onclick=""="triangleCheck()"> -->
-    <button type="button" name="button" onclick="triangleCheck()">Try Out</button>
-    <!-- </form> -->
-
+    <div class="heading">
+      <h1>Welcome to triangle tracker.</h1>
+    </div>
+    <div class="instructions">
+      <h2>Please enter your three lengths:<h2>
+    </div>
+    <div class="entries">
+      <div class="entry">
+        <label for="sideA">Side A</label>
+        <input type="number" name="sideA" id="sideA">
+      </div>
+      <div class="entry">
+        <label for="sideB">Side B</label>
+        <input type="number" name="SideB" id="sideB">
+      </div>
+      <div class="entry">
+        <label for="sideC">Side C</label>
+        <input type="number" name="sideC" id="sideC">
+      </div>
+    </div>
+    <div class="results">
+      <div class="result">
+        <p>You formed an equilateral triangle!</p>
+        <img src="images/equilateral.png" alt="Equilateral triangle">
+        <p>Fact check:</p>
+        <p>In geometry, an equilateral triangle is a triangle in which all three sides are equal. In the familiar Euclidean geometry, an equilateral triangle is also equiangular; that is, all three internal angles are also congruent to each other and are each 60°. It is also a regular polygon, so it is also referred to as a regular triangle.<a href="https://en.wikipedia.org/wiki/Equilateral_triangle" target="_blank">Learn about equilateral triangles</a></p>
+      </div>
+      <div class="result">
+        <p>You formed an isosceles triangle!</p>
+        <img src="images/isosceles" alt="Isosceles triangle">
+        <p>Fact check:</p>
+        <p>In geometry, an isosceles triangle is a triangle that has two sides of equal length. Sometimes it is specified as having exactly two sides of equal length, and sometimes as having at least two sides of equal length, the latter version thus including the equilateral triangle as a special case. Examples of isosceles triangles include the isosceles right triangle, the golden triangle, and the faces of bipyramids and certain Catalan solids.<a href="https://en.wikipedia.org/wiki/Isosceles_triangle" target="_blank">Learn about isosceles triangles</a></p>
+      </div>
+      <div class="result">
+        <p>You formed a scalene triangle!</p>
+        <img src="images/scalene" alt="Scalene triangle">
+        <p>Fact check:</p>
+        <p>Scalene triangles are defined as a triangle where the interior angles are all different. Most triangles drawn at random would be scalene. The converse of this is also true - If all three angles are different, then the triangle is scalene, and all the sides are different lengths.<a href="  https://en.wikipedia.org/?title=Scalene_triangle&redirect=no" target="_blank">Learn about scalene triangles</a></p>
+      </div>
+    </div>
     <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
