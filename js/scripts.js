@@ -1,19 +1,13 @@
-// //finish this function and add array to hold
-// function inputCheck(){
-//   if(sideA === NaN || sideB === NaN || sideC === NaN){
-//     alert("Please ensure that all your entries are numbers");
-//   }
-//   else{
-//     alert("done");
-//   }
-// }
-//
-// inputCheck();
-//
-// else if (sideA == null || sideA == " " || sideB == null || sideB == " " || sideC == null || sideC == " ") {
-//   alert("Please ensure none of the fields are left blank");
-// }
-// else{
+//Check if entry is present and is a number(Obselete because input field only accepts numbers)
+function inputCheck(){
+  if( !sideA || !sideB || !sideC){
+    alert("Enter a valid number");
+  }
+  else{
+    triangleCheck();//runs triangleCheck if input is validated
+  }
+}
+
 
 //Business logic
 function triangleCheck(){
@@ -29,7 +23,7 @@ function triangleCheck(){
   var triangleTypes = ["equilateral", "isosceles", "scalene"];
 //Test triangles for type
   if((sideA + sideB) <= sideC || (sideB + sideC) <= sideA || (sideA + sideC) <= sideB){
-    document.getElementById('result').innerHTML = "This is not a triangle";//Display if not triangle
+    document.getElementById('result').innerHTML = "This is NOT a triangle";//Display if not triangle
   }
   else if(sideA === sideB && sideB === sideC && sideA === sideC){
     document.getElementById('result').innerHTML = "This is an " + triangleTypes[0] + " triangle";//Display if equilateral
