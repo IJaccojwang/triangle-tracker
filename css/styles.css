@@ -1,0 +1,57 @@
+/*insert comments in all the codes*/
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading h1{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  font-size: 400%;
+  padding-bottom: 1%;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+.instructions{
+  text-align: center;
+  color: white;
+}
+.instructions h2{
+  font-size: 200%;
+}
+.entries{
+
+}
+.entry{
+}
+.results{
+  text-align: center;
+}
+.properties{
+  display: flex;
+  align-items: space-around;
+  font-family: 'Raleway', sans-serif;
+}
+.property{
+  width: 31%;
+  border: 2px solid black;
+  margin: 1%;
+  border-radius: 10%;
+}
+.property h3{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.property p{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.property img{
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 10%;
+}
