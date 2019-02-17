@@ -58,8 +58,14 @@ input{
   margin-right: 44%;
   text-transform: uppercase;
 }
-.results{
+.result{
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid;
+  width: 30%;
+  margin: 1%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 .properties{
   display: flex;
