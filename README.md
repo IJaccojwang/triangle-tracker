@@ -4,7 +4,7 @@
 ## Description
 The user inputs the length of 'suspected' triangle sides. Those lengths are then analysed to determine whether the sides form a triangle or not. If they form a triangle, it gives the type of triangle: either equilateral, scalene or isosceles.
 ## Setup/Installation Requirements
-* Go to the deployed site on:
+* Go to the deployed site on: https://ijaccojwang.github.io/triangle-tracker/
 * Enter the three lengths you would like to test.
 * Submit the values and wait for your result.
 ## Future Improvemnts
